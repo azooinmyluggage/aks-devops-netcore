@@ -29,6 +29,12 @@ namespace aspnet_core_dotnet_core
         {
             // Add framework services.
             services.AddMvc();
+
+            // services.AddDistributedRedisCache(option =>
+            // {
+            //     option.Configuration = "redis-cache:6379";
+            //     option.InstanceName = "master";
+            // });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
